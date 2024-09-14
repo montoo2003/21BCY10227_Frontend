@@ -1,0 +1,28 @@
+/* Import TailwindCSS base styles */
+
+@tailwind base;
+
+/* Import TailwindCSS component styles */
+
+@tailwind components;
+
+/* Import TailwindCSS utility styles */
+
+@tailwind utilities;
+
+/* You can add any global custom CSS below */
+
+html,
+body {
+    @apply bg-gray-50 text-gray-900;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    @apply px-4 py-2 bg-blue-500 text-white rounded hover: bg-blue-600;
+}
+
+input,
+select {
+    @apply border p-2 rounded;
+}
